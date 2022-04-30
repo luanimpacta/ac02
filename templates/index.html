@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <a class="link" href="/list">Veja a lista de alunos</a>
+    <br/>
+    <br/>
+
+    <form class="form" action="/signup" method="post">
+        <h1 class="title">Cadastro de aluno</h1>
+        <input class="input" name="name" type="text" placeholder="nome">
+        <input class="input" name="email" type="email" placeholder="email">
+        <input class="input" name="address" type="address" placeholder="Endereço">
+        <button class="button" type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
