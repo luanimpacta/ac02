@@ -1,4 +1,4 @@
-#Atividade continua 02
+# Atividade continua 02
 
 Projeto integrado com banco de dados mysql e utilizando containers docker
 
